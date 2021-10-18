@@ -1,3 +1,3 @@
 Challenge: Quiz Page
-Difficult level: beginner
+Difficulty level: beginner
 Used: hmtl, css, React.js
