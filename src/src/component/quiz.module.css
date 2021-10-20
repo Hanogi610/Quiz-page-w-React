@@ -1,0 +1,56 @@
+.player {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: fixed;
+    background-color: wheat;
+}
+ul{
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    font-size: 2rem;
+}
+.question{
+    grid-column: 1/-1;
+    font-size: 2em;
+    padding: 10px;
+}
+#answer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 55px;
+}
+.controller{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+.redtimer{
+    color: red;
+    font-size: 40px;
+}
+#timer{
+    margin-left: 78%;
+    padding: 5px;
+    margin-right: 5px;
+}
+.pov{
+    text-align: center;
+    font-family: Italianno;
+}
